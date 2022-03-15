@@ -1,7 +1,7 @@
 {
   "name": "binarysearchvisapp",
   "version": "0.1.0",
-  "homepage": "https://MarkL1010.github.io/BinarySearch442",
+  "homepage": "https://MarkL1010.github.io/BinarySearch442/",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.8.1",
@@ -20,7 +20,7 @@
   },
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -b master -d build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build && cp build/index.html build/404.html",
     "test": "react-scripts test",
